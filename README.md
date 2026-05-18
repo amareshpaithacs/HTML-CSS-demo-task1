@@ -37,4 +37,4 @@ project/
 Amaresh
 
 ## Demo link 
-live demo: https://amareshpaithacs.github.io/HTML-CSS-DEMO-TASK1/index.html
+live demo: https://amareshpaithacs.github.io/HTML-CSS-demo-task1/
