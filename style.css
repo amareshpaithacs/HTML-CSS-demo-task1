@@ -129,7 +129,7 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 64px;
+    font-size:clamp(28px,7vw,64px);
     margin-bottom: 25px;
     line-height: 1.2;
 }
@@ -847,4 +847,33 @@ section {
         color: #fff;
     }
 
+}
+@media(max-width:768px){
+
+    .slider-wrapper{
+        position:relative;
+        width:100%;
+        bottom:0;
+        margin-top:40px;
+    }
+
+    .hero-cards{
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .card{
+        width:100%;
+        max-width:320px;
+    }
+
+    .prev-arrow,
+    .next-arrow{
+        display:none;
+    }
+
+    .hero{
+        padding-bottom:60px;
+        min-height:auto;
+    }
 }
